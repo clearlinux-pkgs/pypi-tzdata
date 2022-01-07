@@ -17,13 +17,13 @@ BuildRequires : buildreq-distutils3
 Provides: python-tzdata
 Provides: python-tzdata-python
 Provides: python-tzdata-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 tzdata: Python package providing IANA time zone data
