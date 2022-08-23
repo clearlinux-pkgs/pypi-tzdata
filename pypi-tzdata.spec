@@ -4,7 +4,7 @@
 #
 Name     : pypi-tzdata
 Version  : 2022.2
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/3e/eb/a00286433c739bb1a0d83a069b2dc379a5d14b0b9c927e3cb00cb434d740/tzdata-2022.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3e/eb/a00286433c739bb1a0d83a069b2dc379a5d14b0b9c927e3cb00cb434d740/tzdata-2022.2.tar.gz
 Summary  : Provider of IANA time zone data
