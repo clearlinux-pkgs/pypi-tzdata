@@ -1,5 +1,5 @@
 PKG_NAME := pypi-tzdata
-URL = https://files.pythonhosted.org/packages/5e/9f/63f7187ffd6d01dd5b5255b8c0b1c4f05ecfe79d940e0a243a6198071832/tzdata-2022.6.tar.gz
+URL = https://files.pythonhosted.org/packages/5b/30/b7abfb11be6642d26de1c1840d25e8d90333513350ad0ebc03101d55e13b/tzdata-2022.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
