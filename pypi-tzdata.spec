@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-tzdata
-Version  : 2023.2
-Release  : 21
-URL      : https://files.pythonhosted.org/packages/d9/72/e152a44bc74ddac6a3d0a91b1bc2a81826b07772d7dccbb0d492ad7dc256/tzdata-2023.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d9/72/e152a44bc74ddac6a3d0a91b1bc2a81826b07772d7dccbb0d492ad7dc256/tzdata-2023.2.tar.gz
+Version  : 2023.3
+Release  : 22
+URL      : https://files.pythonhosted.org/packages/70/e5/81f99b9fced59624562ab62a33df639a11b26c582be78864b339dafa420d/tzdata-2023.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/70/e5/81f99b9fced59624562ab62a33df639a11b26c582be78864b339dafa420d/tzdata-2023.3.tar.gz
 Summary  : Provider of IANA time zone data
 Group    : Development/Tools
 License  : Apache-2.0
@@ -56,10 +56,10 @@ python3 components for the pypi-tzdata package.
 
 
 %prep
-%setup -q -n tzdata-2023.2
-cd %{_builddir}/tzdata-2023.2
+%setup -q -n tzdata-2023.3
+cd %{_builddir}/tzdata-2023.3
 pushd ..
-cp -a tzdata-2023.2 buildavx2
+cp -a tzdata-2023.3 buildavx2
 popd
 
 %build
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679688162
+export SOURCE_DATE_EPOCH=1680102471
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
