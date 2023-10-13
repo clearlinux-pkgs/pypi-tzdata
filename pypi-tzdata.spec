@@ -5,7 +5,7 @@
 #
 Name     : pypi-tzdata
 Version  : 2023.3
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/70/e5/81f99b9fced59624562ab62a33df639a11b26c582be78864b339dafa420d/tzdata-2023.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/70/e5/81f99b9fced59624562ab62a33df639a11b26c582be78864b339dafa420d/tzdata-2023.3.tar.gz
 Summary  : Provider of IANA time zone data
